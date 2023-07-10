@@ -323,6 +323,10 @@
     text-shadow: 4px 4px #ff0070;
   }
 
+  .header__text p {
+    letter-spacing: 0.18px;
+  }
+
   .header__text {
     margin-inline-start: auto;
     margin-block-end: 134px;
