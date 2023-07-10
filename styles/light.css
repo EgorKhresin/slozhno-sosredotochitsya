@@ -53,4 +53,14 @@
     color: var(--text-color, #353430);
   }
 
+  .footer::after {
+    border-inline-start: solid 1px var(--text-color, #353430);
+    border-block-end: solid 1px var(--text-color, #353430);
+  }
+
+  .footer::before {
+    border-inline-end: solid 1px var(--text-color, #353430);
+    border-block-start: solid 1px var(--text-color, #353430);
+  }
+
 }
