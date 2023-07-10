@@ -68,7 +68,7 @@
 
 .header__theme-menu-list {
   display: grid;
-  gap: 10px;
+  gap: 12.5px;
 }
 
 .header__theme-menu-button {
@@ -329,7 +329,7 @@
 
   .header__text {
     margin-inline-start: auto;
-    margin-block-end: 134px;
+    margin-block-end: 111px;
   }
 
   .header__theme-menu-button {
