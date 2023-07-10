@@ -63,12 +63,12 @@
 .header__theme-menu {
   justify-self: end;
   margin-inline-end: clamp(0.625rem, 0.0271rem + 2.551vw, 1.25rem);
-  margin-block-start: clamp(4.6875rem, -2.2901rem + 29.771vw, 12rem);
+  margin-block-start: clamp(4.6875rem, -1.6937rem + 27.2265vw, 11.375rem);
 }
 
 .header__theme-menu-list {
   display: grid;
-  gap: 15px;
+  gap: 20px;
 }
 
 .header__theme-menu-button {
