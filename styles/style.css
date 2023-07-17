@@ -197,7 +197,7 @@
 }
 
 .gallery__image {
-  object-fit: contain;
+  object-fit: cover;
   inline-size: 100%;
   
 }
