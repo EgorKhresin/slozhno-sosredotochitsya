@@ -292,7 +292,6 @@
   }
 
   .gallery__image{
-    object-fit: cover;
     block-size: 100%;
   }
 
