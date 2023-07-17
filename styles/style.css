@@ -198,7 +198,6 @@
 .gallery__image {
   object-fit: contain;
   inline-size: 100%;
-  block-size: 100%;
 }
 
 .gallery-title {
@@ -263,6 +262,7 @@
 
   .gallery__image {
     object-fit: cover;
+    block-size: 100%;
   }
 
   .first-image {
