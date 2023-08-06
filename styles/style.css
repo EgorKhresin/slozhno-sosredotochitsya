@@ -22,13 +22,13 @@
   inset-inline-end: clamp(2.375rem, 1.7771rem + 2.551vw, 3rem);
   inset-block-start: clamp(0.625rem, 0.0271rem + 2.551vw, 1.25rem);
 }
-/*
+
 .decor::after {
   content: url(../images/Ellipse\ 4.svg);
   position: absolute;
   margin-inline-start: 4px;
   margin-block-start: 2px;
-}*/
+}
 
 .header {
   display: grid;
