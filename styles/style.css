@@ -1,13 +1,13 @@
 .page {
   background-color: var(--bg-color);
-  font-family: var(--main-font, monospace);
+  font-family: 'IBM Plex mono', Arial, Helvetica, sans-serif;
   display: flex;
   flex-direction: column;
   justify-content: center;
   gap: 40px;
-  min-width: 375px;
-  width:100%;
-  height:100%;
+  min-inline-size: 375px;
+  inline-size:100%;
+  block-size:100%;
   background-image: var(--bg-img);
   background-repeat: no-repeat;
   background-size: cover;
@@ -27,8 +27,8 @@
 .camera::before {
   position: absolute;
   content: '';
-  top: var(--gap);
-  right: var(--gap);
+  inset-block-start: var(--gap);
+  inset-inline-end: var(--gap);
   inline-size: 25px;
   block-size: 25px;
   border-block-start: 1px solid var(--corner-color);
