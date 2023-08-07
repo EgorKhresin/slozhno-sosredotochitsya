@@ -13,7 +13,7 @@
 }
 
 .decor {
-  content: 'REC';
+  content: '';
   position: absolute;
   color: var(--accent-color, #ff0070);
   font-weight: 400;
