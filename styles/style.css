@@ -325,10 +325,9 @@
     text-shadow: 4px 4px #ff0070;
   }
 
-
   .header__text {
     margin-inline-start: auto;
-    margin-block-end: 123px;
+    margin-block-end: 134px;
   }
 
   .header__theme-menu-button {
