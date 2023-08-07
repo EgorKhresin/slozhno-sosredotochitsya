@@ -68,7 +68,7 @@
 
 .header__theme-menu-list {
   display: grid;
-  gap: 20px;
+  gap: 10px;
 }
 
 .header__theme-menu-button {
