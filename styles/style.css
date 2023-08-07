@@ -273,10 +273,6 @@
     grid-template-columns: repeat(3, 1fr);
   }
 
-  .content-section__text {
-    letter-spacing: -0.3px;
-  }
-
   .cards-rows {
     grid-column: 2 / -1;
   }
