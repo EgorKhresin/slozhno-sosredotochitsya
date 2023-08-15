@@ -25,14 +25,14 @@
 
 .decor::after {
   content:'';
-  background-color: var(--decor-color, #ff0070);
   position: absolute;
   margin-inline-start: 10px;
   margin-block-start: 8px;
+  border-radius: 50%;
   box-shadow: 0 0 4px 2px var(--decor-color, #ff0070);
+  background-color: var(--decor-color, #ff0070);
   inline-size: 9px;
   block-size: 9px;
-  border-radius: 50%;
 }
 
 .header {
@@ -82,9 +82,9 @@
   color: var(--button-color, #ff0070);
   font-family: 'IBM Plex mone', Arial, Helvetica, sans-serif;
   font-weight: 400;
-  letter-spacing: 0.18px;
   font-size: 18px;
   line-height: 23.4px;
+  letter-spacing: 0.18px;
   text-align: center;
   text-transform: lowercase;
   background-color: transparent;
@@ -156,8 +156,8 @@
 .card__title {
   margin-block-end: 10px;
   color: var(--title-3-color, #000028);
-  background-color: var(--accent-color, #ff0070);
   line-height: 23.4px;
+  background-color: var(--accent-color, #ff0070);
 }
 
 .content-section__text {
@@ -220,8 +220,8 @@
   display: grid;
   justify-content: center;
   align-items: center;
-  block-size: 100vb;
   margin-block-start: clamp(2.5rem, 1.3042rem + 5.102vw, 3.75rem);
+  block-size: 100vb;
 }
 
 .footer::after {
@@ -240,13 +240,13 @@
   content: '';
   position: absolute;
   justify-self: end;
+  align-self: start;
   margin-inline-end: clamp(0.625rem, 0.0271rem + 2.551vw, 1.25rem);
   margin-block-start: clamp(0.625rem, 0.0271rem + 2.551vw, 1.25rem);
   border-inline-end: solid 1px var(--corner-color, #ff0070);
   border-block-start: solid 1px var(--corner-color, #ff0070);
   inline-size: 25px;
   block-size: 25px;
-  align-self: start;
 }
 
 .footer__title {
