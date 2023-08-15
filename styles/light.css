@@ -14,53 +14,34 @@
   --text-color: #353430;
   --accent-color: #ff8dcb;
   --title-color: #ffc2e6;
+  --button-color: #353430;
+  --shadow-color: #ff8dcb;
+  --shadow-l-color: #ff0070;
+  --title-2-color: #353430;
+  --title-3-color: #353430;
+  --title-ul-color: #353430;
+  --corner-color: #353430;
+  --decor-color: rgb(53, 52, 48, 0);
 
-  .header::after {
-    border-inline-start: solid 1px var(--text-color, #353430);
-    border-block-end: solid 1px var(--text-color, #353430);
-  }
+}
 
-  .header::before {
-    border-inline-end: solid 1px var(--text-color, #353430);
-    border-block-start: solid 1px var(--text-color, #353430);
-  }
 
-  .decor {
-    color: transparent;
-  }
 
-  .decor::after {
-    content: none;
-  }
-
-  .header__text p {
-    color: var(--text-color, #353430);
-  }
-
-  .content-section__title {
-    color: var(--text-color, #353430);
-  }
-
-  .card__title {
-    color: var(--text-color, #353430);
-  }
-
-  .content-section__subtitle {
-    color: var(--text-color, #353430);
-  }
-
-  .gallery-title {
-    color: var(--text-color, #353430);
-  }
-
-  .footer::after {
-    border-inline-start: solid 1px var(--text-color, #353430);
-    border-block-end: solid 1px var(--text-color, #353430);
-  }
-
-  .footer::before {
-    border-inline-end: solid 1px var(--text-color, #353430);
-    border-block-start: solid 1px var(--text-color, #353430);
+@media (prefers-color-scheme: light) {
+  :root  {
+  --bg-color: #fff1f7;
+  --bg-image: url(../images/cover-image-light.png);
+  --text-color: #353430;
+  --accent-color: #ff8dcb;
+  --title-color: #ffc2e6;
+  --button-color: #353430;
+  --shadow-color: #ff8dcb;
+  --shadow-l-color: #ff0070;
+  --title-2-color: #353430;
+  --title-3-color: #353430;
+  --title-ul-color: #353430;
+  --corner-color: #353430;
+  --decor-color: rgb(53, 52, 48, 0);
   }
 
 }

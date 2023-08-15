@@ -15,7 +15,7 @@
 .decor {
   content: '';
   position: absolute;
-  color: var(--accent-color, #ff0070);
+  color: var(--decor-color, #ff0070);
   font-weight: 400;
   font-size: 18px;
   line-height: 25px;
@@ -24,10 +24,15 @@
 }
 
 .decor::after {
-  content: url(../images/Ellipse\ 4.svg);
+  content:'';
+  background-color: var(--decor-color, #ff0070);
   position: absolute;
-  margin-inline-start: 4px;
-  margin-block-start: 2px;
+  margin-inline-start: 10px;
+  margin-block-start: 8px;
+  box-shadow: 0 0 4px 2px var(--decor-color, #ff0070);
+  inline-size: 9px;
+  block-size: 9px;
+  border-radius: 50%;
 }
 
 .header {
@@ -42,8 +47,8 @@
   align-self: end;
   margin-inline-start: clamp(0.625rem, 0.0271rem + 2.551vw, 1.25rem);
   margin-block-end: clamp(0.625rem, 0.0271rem + 2.551vw, 1.25rem);
-  border-inline-start: solid 1px var(--accent-color, #ff0070);
-  border-block-end: solid 1px var(--accent-color, #ff0070);
+  border-inline-start: solid 1px var(--corner-color, #ff0070);
+  border-block-end: solid 1px var(--corner-color, #ff0070);
   inline-size: 25px;
   block-size: 25px;
 }
@@ -54,8 +59,8 @@
   justify-self: end;
   margin-inline-end: clamp(0.625rem, 0.0271rem + 2.551vw, 1.25rem);
   margin-block-start: clamp(0.625rem, 0.0271rem + 2.551vw, 1.25rem);
-  border-inline-end: solid 1px var(--accent-color, #ff0070);
-  border-block-start: solid 1px var(--accent-color, #ff0070);
+  border-inline-end: solid 1px var(--corner-color, #ff0070);
+  border-block-start: solid 1px var(--corner-color, #ff0070);
   inline-size: 25px;
   block-size: 25px;
 }
@@ -74,7 +79,7 @@
 .header__theme-menu-button {
   border: none;
   padding: 2.5px 13px;
-  color: var(--accent-color, #ff0070);
+  color: var(--button-color, #ff0070);
   font-family: 'IBM Plex mone', Arial, Helvetica, sans-serif;
   font-weight: 400;
   letter-spacing: 0.18px;
@@ -93,7 +98,7 @@
 .paragraph-link {
   color: currentColor;
   text-decoration: none;
-  text-shadow: 2px 2px var(--accent-color, #ff0070);
+  text-shadow: 2px 2px var(--shadow-color, #ff0070);
 }
 
 .header__title {
@@ -103,7 +108,7 @@
   font-weight: 700;
   font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   line-height: 82.5%;
-  text-shadow: 2px 2px var(--accent-color, #ff0070);
+  text-shadow: 2px 2px var(--shadow-color, #ff0070);
 }
 
 .header__text {
@@ -117,7 +122,7 @@
 
 .header__text p {
   margin: 0;
-  color: var(--bg-color, #000028);
+  color: var(--title-3-color, #000028);
   font-weight: 700;
   font-size: 18px;
   line-height: 23.4px;
@@ -141,7 +146,7 @@
 }
 
 .content-section__title {
-  color: var(--accent-color, #ff0070);
+  color: var(--title-2-color, #ff0070);
   font-weight: 700;
   font-size: 18px;
   line-height: 23.4px;
@@ -150,7 +155,7 @@
 
 .card__title {
   margin-block-end: 10px;
-  color: var(--bg-color);
+  color: var(--title-3-color, #000028);
   background-color: var(--accent-color, #ff0070);
   line-height: 23.4px;
 }
@@ -178,7 +183,7 @@
 .content-section__subtitle {
   margin-block-start: 20px;
   margin-block-end: 10px;
-  color: var(--bg-color);
+  color: var(--title-ul-color, #000028);
   font-weight: 400;
   font-size: 18px;
   line-height: 23.4px;
@@ -204,7 +209,7 @@
 
 .gallery-title {
   margin-block-end: clamp(0rem, -0.5979rem + 2.551vw, 0.625rem);
-  color: var(--bg-color);
+  color: var(--title-3-color, #000028);
   font-weight: 700;
   font-size: 18px;
   line-height: 23.4px;
@@ -225,8 +230,8 @@
   align-self: end;
   margin-inline-start: clamp(0.625rem, 0.0271rem + 2.551vw, 1.25rem);
   margin-block-end: clamp(0.625rem, 0.0271rem + 2.551vw, 1.25rem);
-  border-inline-start: solid 1px var(--accent-color, #ff0070);
-  border-block-end: solid 1px var(--accent-color, #ff0070);
+  border-inline-start: solid 1px var(--corner-color, #ff0070);
+  border-block-end: solid 1px var(--corner-color, #ff0070);
   inline-size: 25px;
   block-size: 25px;
 }
@@ -237,8 +242,8 @@
   justify-self: end;
   margin-inline-end: clamp(0.625rem, 0.0271rem + 2.551vw, 1.25rem);
   margin-block-start: clamp(0.625rem, 0.0271rem + 2.551vw, 1.25rem);
-  border-inline-end: solid 1px var(--accent-color, #ff0070);
-  border-block-start: solid 1px var(--accent-color, #ff0070);
+  border-inline-end: solid 1px var(--corner-color, #ff0070);
+  border-block-start: solid 1px var(--corner-color, #ff0070);
   inline-size: 25px;
   block-size: 25px;
   align-self: start;
@@ -249,7 +254,7 @@
   font-weight: 700;
   font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   line-height: 82.5%;
-  text-shadow: 2px 2px var(--accent-color, #ff0070);
+  text-shadow: 2px 2px var(--shadow-color, #ff0070);
 }
 
 @media (width>= 768px) {
@@ -322,7 +327,7 @@
   }
 
   .header__title {
-    text-shadow: 4px 4px #ff0070;
+    text-shadow: 4px 4px var(--shadow-l-color, #ff0070);
   }
 
   .header__text {
@@ -344,6 +349,6 @@
   }
 
   .footer__title {
-    text-shadow: 4px 4px #ff0070;
+    text-shadow: 4px 4px var(--shadow-l-color, #ff0070);
   }
 }
