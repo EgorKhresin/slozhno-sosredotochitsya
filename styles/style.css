@@ -21,6 +21,7 @@
   line-height: 25px;
   inset-inline-end: clamp(2.375rem, 1.7771rem + 2.551vw, 3rem);
   inset-block-start: clamp(0.625rem, 0.0271rem + 2.551vw, 1.25rem);
+  text-transform: uppercase;
 }
 
 .decor::after {
@@ -67,8 +68,8 @@
 
 .header__theme-menu {
   justify-self: end;
-  margin-inline-end: clamp(0.625rem, 0.0271rem + 2.551vw, 1.25rem);
-  margin-block-start: clamp(4.6875rem, -1.3955rem + 25.9542vw, 11.0625rem);
+  margin-inline-end: clamp(0.625rem, 0.0883rem + 2.2901vw, 1.1875rem);
+  margin-block-start: clamp(4.6875rem, -2.2901rem + 29.771vw, 12rem);
 }
 
 .header__theme-menu-list {
@@ -78,13 +79,13 @@
 
 .header__theme-menu-button {
   border: none;
-  padding: 2.5px 13px;
+  padding: 1px 13px;
   color: var(--button-color, #ff0070);
   font-family: 'IBM Plex mone', Arial, Helvetica, sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 23.4px;
-  letter-spacing: 0.18px;
+  letter-spacing: 1px;
   text-align: center;
   text-transform: lowercase;
   background-color: transparent;
@@ -161,7 +162,7 @@
   letter-spacing: -0.42px;
 }
 
-.content-section__text {
+.card__text {
   margin-block-end: 10px;
   color: var(--text-color, #f1b2ce);
   font-weight: 400;
@@ -337,12 +338,12 @@
   }
 
   .header__theme-menu-button {
-    padding-inline: 15px;
+    padding-inline: 12px;
   }
 
   .header__theme-menu-list {
     grid-template-columns: repeat(3, 1fr);
-    gap: 22.5px;
+    gap: 11px;
   }
 
   .cards-columns {
