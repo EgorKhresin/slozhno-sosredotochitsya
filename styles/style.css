@@ -43,7 +43,9 @@
   position: absolute;
   align-self: end;
   margin-inline-start: clamp(0.625rem, 0.0271rem + 2.551vw, 1.25rem);
+  -webkit-margin-inline-start: 10px;
   margin-block-end: clamp(0.625rem, 0.0271rem + 2.551vw, 1.25rem);
+  -webkit-margin-block-end: 10px;
   border-inline-start: solid 1px var(--corner-color, #ff0070);
   border-block-end: solid 1px var(--corner-color, #ff0070);
   inline-size: 25px;
@@ -55,9 +57,9 @@
   position: absolute;
   justify-self: end;
   margin-inline-end: clamp(0.625rem, 0.0271rem + 2.551vw, 1.25rem);
-  -webkit-margin-inline-end: clamp(0.625rem, 0.0271rem + 2.551vw, 1.25rem);
+  -webkit-margin-inline-end: 10px;
   margin-block-start: clamp(0.625rem, 0.0271rem + 2.551vw, 1.25rem);
-  -webkit-margin-block-start: clamp(0.625rem, 0.0271rem + 2.551vw, 1.25rem);
+  -webkit-margin-block-start: 10px;
   border-inline-end: solid 1px var(--corner-color, #ff0070);
   border-block-start: solid 1px var(--corner-color, #ff0070);
   inline-size: 25px;
@@ -261,6 +263,16 @@
   .footer__title {
     margin-inline-start: 0;
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+  }
+
+  .header::after {
+    -webkit-margin-inline-end: 20px;
+    -webkit-margin-block-start: 20px;
+  }
+
+  .header::before {
+    -webkit-margin-inline-start: 20px;
+    -webkit-margin-block-end: 20px;
   }
 
   .header__text {
