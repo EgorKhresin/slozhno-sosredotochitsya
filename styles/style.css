@@ -55,7 +55,9 @@
   position: absolute;
   justify-self: end;
   margin-inline-end: clamp(0.625rem, 0.0271rem + 2.551vw, 1.25rem);
+  -webkit-margin-inline-end: clamp(0.625rem, 0.0271rem + 2.551vw, 1.25rem);
   margin-block-start: clamp(0.625rem, 0.0271rem + 2.551vw, 1.25rem);
+  -webkit-margin-block-start: clamp(0.625rem, 0.0271rem + 2.551vw, 1.25rem);
   border-inline-end: solid 1px var(--corner-color, #ff0070);
   border-block-start: solid 1px var(--corner-color, #ff0070);
   inline-size: 25px;
